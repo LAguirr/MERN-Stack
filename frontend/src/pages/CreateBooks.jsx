@@ -9,10 +9,9 @@ const CreateBook = () => {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
   const [publishYear, setPublishYear] = useState('');
-  const [navigate, setLoading] = useState('');
   const navigate = useNavigate();  
   const handleSaveBook = () => {
-    const data {
+    const data = {
       title, 
       author,
       publishYear
