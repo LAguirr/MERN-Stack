@@ -11,8 +11,8 @@ const app = express();
 //Option 1: Allow All Origins with Default of cors(*)
 app.use(cors());
 //Option 2: Allow Customs Origins
-app.use(
- /* cors({
+/*app.use(
+ cors({
     origin: 'http://localhost:3000',
     methods: ['GET','POST','DELETE','PUT'],
     allowedHeaders: ['Content-type'],
